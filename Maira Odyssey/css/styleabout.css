@@ -1,0 +1,64 @@
+html {
+
+  height: 100%;
+    background-image: url('../images/mukuko-studio-tPKQwYHy8q4-unsplash.jpg');
+    background-size: cover;
+    color: white;
+    overflow-y: auto;
+} 
+.img1 {
+    float: right; 
+    width: 450px; 
+    margin-right: 150px;
+    animation: slideBottom 1s ease forwards;
+
+
+    }
+
+    .txt_pos{
+        margin-left: 100px;
+   
+
+        }
+
+        .wholeanim{
+
+            animation: slideRight 1s ease forwards;
+        }
+
+    
+p{
+    text-align: justify;
+    width: 500px;
+    
+    }
+    .button{
+        max-width: 500px;
+        border-radius:  20px ;
+        color: black;
+        background-color: #56D6F9;
+    }
+
+
+    
+    @keyframes slideBottom {
+        0% {
+            transform: translateY(-100px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideRight {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }

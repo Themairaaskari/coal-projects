@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylecontact.css">
+    <title>contact us</title>
+</head>
+
+<body>
+
+    <form action="home.html" method="post">
+        <h2>Contact Us</h2>
+        <h3>Alert:this is html and css based practice form just not  for professional submission</h3>
+        <div class="formgroup">
+            <label for="fullname">Full Name:</label>
+            <input  type="text" id="fullname" name="fullname" required>
+            <input  type="hidden" id="123" name="123" value="123" required>
+        </div>
+        <div class="formgroup">
+            <label for="mobile">Mobile Number:</label>
+            <input  type="tel" id="mobile" name="mobile"  required>
+        </div>
+        <div class="formgroup">
+            <label for="email">Email:</label>
+            <input  type="email" id="email" name="email" required> 
+        </div>
+        <div class="formgroup">
+            <label>Gender:</label>
+            <label for="male"><input  type="radio" id="male" name="gender" > Male</label>
+            <label for="female"><input type="radio" id="female" name="gender"> Female</label>
+        </div>
+        <div class="formgroup">
+            <label>Apply as a Volunteer:</label>
+            <br>
+            <label for="teacher"><input type="checkbox" id="teacher" name="volunteer" > Teacher</label>
+            <label for="guide"><input  type="checkbox" id="guide" name="volunteer" > Guide</label>
+            <label for="mediacrew"><input  type="checkbox" id="mediacrew" name="mediacrew" > Media Crew</label>
+           
+        </div>
+        <div class="formgroup">
+            <label for="dob">Date of Birth:</label>
+            <input  type="date" id="dob" name="dob" required>
+        </div>
+        <div class="formgroup">
+            <label for="expertise">Your Expertise:</label>
+            <textarea  id="expertise" name="expertise" rows="14" cols="100" required></textarea>
+        </div>
+        <div class="formgroup">
+            <label for="fileupload">File Upload</label>
+            <input type="file" value="upload image" >
+        </div>
+        <div class="formgroup">
+            <button type="submit">Contact Us</button>
+            <button class="reset" type="reset">Wipe It</button>
+            
+        </div>
+    </form>
+</body>
+</html>
+
